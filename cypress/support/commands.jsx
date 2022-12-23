@@ -25,9 +25,9 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 // Support File: support.jsx
-import { createVuetify } from 'vuetify';
+import VApp from 'vuetify/lib/components/VApp';
 import vuetify from '@/plugins/vuetify';
-import i18n from '@/plugins/i18n'; // You want whatever you'd pass into Vue.use
+// import i18n from '@/plugins/i18n'; // You want whatever you'd pass into Vue.use
 
 import { mount as cypressMount } from 'cypress/vue'
 
